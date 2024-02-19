@@ -1,0 +1,63 @@
+body{
+    overflow-x: hidden;
+}
+.ps-sidebar-root{
+    background-color: #f8f9fa !important;
+}
+
+.Auth-container{
+    background-image: url('assets/bg.png') ;
+    background-position: center center;
+    background-size: cover;
+}
+.bg-overLay{
+    background: linear-gradient(to left, rgba(0,0,0,.63),rgba(55, 140, 47, 0.63));
+}
+.ps-sidebar-container{
+    background-color: #1F263E !important;
+    color: white;
+    height: 100% !important;
+    border-top-right-radius:50px !important;
+
+}
+
+.sidebar{
+    background-color: #1F263E !important;
+    color: white;
+    border-top-right-radius: 50px !important;
+}
+
+.ps-menu-button:hover {
+    background-color: rgba(0, 148, 71,0.4)!important;
+}
+.header-content{
+    background-image: url('./assets/header-bg-svg.svg');
+    background-repeat: no-repeat;
+    background-size: 105%;
+    background-position: center center;
+
+}
+.home-content{
+    background-color:rgba(240, 255, 239, 1);
+}
+.loading-table{
+    height: 43vh !important;
+}
+.categoryButton{
+    text-align: right;
+}
+/* ----- mediaQuery ------ */
+@media only screen and (max-width: 600px) {
+    .handel-table-responsive{
+        width: 84%;
+    }
+  }
+@media only screen and (max-width: 767px) {
+    .titelOfHeader ,.pargraphOfHeader {
+      color: black !important;
+    }
+    .categoryButton{
+        margin:10px;
+        text-align: left !important ;
+    }
+  }
